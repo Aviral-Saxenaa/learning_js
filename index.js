@@ -66,6 +66,6 @@ var arr=[1,2,3,4,5,6,77];
 
 //for each loop
 
-arr.forEach(function(element,index){
-    console.log(index+" "+element);
-});
+// arr.forEach(function(element,index){
+//     console.log(index+" "+element);
+// });
