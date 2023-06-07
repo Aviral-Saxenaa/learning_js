@@ -58,7 +58,7 @@
 
 //loops
 
-var arr=[1,2,3,4,5,6,77];
+// var arr=[1,2,3,4,5,6,77];
 // console.log(arr.length);
 // for(var i=0;i<arr.length;i++){
 //     console.log(arr[i]);
@@ -69,3 +69,77 @@ var arr=[1,2,3,4,5,6,77];
 // arr.forEach(function(element,index){
 //     console.log(index+" "+element);
 // });
+
+// while loop
+// var j=0;
+// while(j<arr.length){
+//     console.log(arr[j]);
+//     j++;
+// }
+
+//do while loop
+
+// var j=0;
+// do{
+//     console.log(j);
+//     j--;
+// }
+// while(j>0);
+
+//array methods
+// var arr=[1,2,"aa"];
+// console.log(arr.length);
+// arr.pop();
+// console.log(arr);
+// arr.push(0,22);
+// console.log(arr);
+// arr.shift();                        //removes first element
+// console.log(arr);
+
+// var newarr=[3,2,4,1,5];
+// newarr.sort();
+// console.log(newarr);
+
+// var newarr2=newarr.concat(arr);
+// console.log((newarr2));
+
+//string methods
+
+// var s="hello how are you how";
+// console.log(s.length);
+// var s2="aa";
+// var s3=s.concat(s2);
+// console.log(s3);
+// console.log(s.lastIndexOf("how"));
+// console.log(s.slice(1,4));
+
+//dates and time in js
+
+// var mydate=new Date();
+// console.log(mydate);
+// var newdate=new Date("2 june 2003 14:20");
+// console.log(newdate);
+// var x=newdate.getDate();
+// console.log(x);
+// var y=newdate.getDay();
+// console.log(y);
+// var z=newdate.getMonth();
+// console.log(z);
+// var a=newdate.getHours();
+// console.log(a);
+// var b=newdate.getMinutes();
+// console.log(b);
+// var c=newdate.getSeconds();
+// console.log(c);
+// var d=newdate.getTime();
+// console.log(d);
+// var e=newdate.toLocaleTimeString();
+// console.log(e);
+// var f=newdate.toTimeString();
+// console.log(f);
+// newdate.setDate('3');
+// console.log(newdate);
+// newdate.setMonth("0");
+// console.log(newdate);
+// newdate.setFullYear("2014");
+// console.log(newdate);
